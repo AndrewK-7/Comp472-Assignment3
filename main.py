@@ -49,9 +49,9 @@ if __name__ == '__main__':
 
     # Print our the vocabularies in case we want to take a peek
     print("Here are the two vocabularies used:")
-    print("Original Vocabulary: ", end='')
+    print("Original Vocabulary (size: " + repr(len(original_vocabulary)) + "): ", end='')
     print(original_vocabulary)
-    print("Filtered Vocabulary: ", end='')
+    print("Filtered Vocabulary (size: " + repr(len(filtered_vocabulary)) + "): ", end='')
     print(filtered_vocabulary)
     print("")
 
